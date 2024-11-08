@@ -33,7 +33,16 @@ import 'package:flutter/material.dart';
 
 void main(){
   runApp(MaterialApp( // the root widget of the application
-    home: Scaffold(
+    home: Home(),
+  )); 
+}
+
+class Home extends StatelessWidget {
+  const Home({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
       appBar: AppBar(
         title: Text('This is a title'),
         centerTitle: true,
@@ -58,15 +67,6 @@ void main(){
         child: Text('Click'),
         backgroundColor: Colors.redAccent,
       ),
-    )
-  )); 
-}
-
-class Home extends StatelessWidget {
-  const Home({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
+    );
   }
 }
