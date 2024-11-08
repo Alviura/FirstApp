@@ -1,0 +1,1 @@
+ /home/alvin/dev/FirstApp/.dart_tool/flutter_build/ef09bb4511e5d5fb0105e3f5b8a77c60/native_assets.yaml: 
