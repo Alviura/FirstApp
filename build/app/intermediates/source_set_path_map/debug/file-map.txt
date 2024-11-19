@@ -18,10 +18,10 @@ com.example.firstapp-core-1.13.1-16 /home/alvin/.gradle/caches/transforms-3/c666
 com.example.firstapp-lifecycle-runtime-2.7.0-17 /home/alvin/.gradle/caches/transforms-3/c8996eb6ce8efabee1883fe1486006c9/transformed/lifecycle-runtime-2.7.0/res
 com.example.firstapp-jetified-lifecycle-viewmodel-savedstate-2.7.0-18 /home/alvin/.gradle/caches/transforms-3/ca2eed4266fd24517e583e6618aa3924/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/res
 com.example.firstapp-jetified-tracing-1.2.0-19 /home/alvin/.gradle/caches/transforms-3/fee79d0d8ef3af5dbc14ef6d22d028cf/transformed/jetified-tracing-1.2.0/res
-com.example.firstapp-debug-20 /home/alvin/dev/FirstApp/android/app/src/debug/res
-com.example.firstapp-main-21 /home/alvin/dev/FirstApp/android/app/src/main/res
-com.example.firstapp-pngs-22 /home/alvin/dev/FirstApp/build/app/generated/res/pngs/debug
-com.example.firstapp-resValues-23 /home/alvin/dev/FirstApp/build/app/generated/res/resValues/debug
-com.example.firstapp-packageDebugResources-24 /home/alvin/dev/FirstApp/build/app/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.firstapp-packageDebugResources-25 /home/alvin/dev/FirstApp/build/app/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.firstapp-merged_res-26 /home/alvin/dev/FirstApp/build/app/intermediates/merged_res/debug
+com.example.firstapp-debug-20 /home/alvin/FirstApp/android/app/src/debug/res
+com.example.firstapp-main-21 /home/alvin/FirstApp/android/app/src/main/res
+com.example.firstapp-pngs-22 /home/alvin/FirstApp/build/app/generated/res/pngs/debug
+com.example.firstapp-resValues-23 /home/alvin/FirstApp/build/app/generated/res/resValues/debug
+com.example.firstapp-packageDebugResources-24 /home/alvin/FirstApp/build/app/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.firstapp-packageDebugResources-25 /home/alvin/FirstApp/build/app/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.firstapp-merged_res-26 /home/alvin/FirstApp/build/app/intermediates/merged_res/debug

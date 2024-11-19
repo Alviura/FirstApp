@@ -2,16 +2,14 @@
 
 /* 
 
-WIDGETS -> Everything in futter is a widget 
+WIDGETS -> Everything in flutter is a widget
 The pre-built widgets in flutter that we can use are
-  Scaffold widget -> To
+  Scaffold widget -> To create the basic material design visual layout structure
   Text widget -> To create text
   Button widget -> To create buttons
   Row widget -> To deal with diff layouts in a row
-  Collumn widget -> "  "  "    "    "    "   "  column
-  image widget -> to deal with images
-
-Widgets have propeties that define how different element behave and look in the screen
+  Column widget -> To deal with diff layouts in a column
+Widgets have properties that define how different element behave and look in the screen
 Widgets are classes
 
 S Y N T A X
@@ -27,46 +25,50 @@ widgetName(
   S T A T E F U L      W I D G E T S
   The state of widget can change over time
 
+  I M A G E   &   A S S E T S
+  Two types of image
+  1. Network image
+  2. Asset image
+
+
+  C O N T A I N E R   W I D G E T
+  A versitile layout widget that is often used for styling and positioning other widgets.
+  It acts as a box model, allowing you to customize its shape, color, alignment, margins, padding and more
+
+
 */
 
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; // contains all necessary tools, packages, modules needed for the app
 
-void main(){
-  runApp(MaterialApp( // the root widget of the application
-    home: Home(),
-  )); 
+void main() {
+  runApp(MyApp());
 }
 
-class Home extends StatelessWidget {
-  const Home({super.key});
-
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('This is a title'),
-        centerTitle: true,
-        backgroundColor: Colors.blueAccent,
-      ),
-      
-      body: Center( // centers what is inside the widget
-        child: Text(
-          'hello ninjas',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
-
-          )
-        ), // the child property is used if a widget happens to be a under that widget
-      ),
-
-      floatingActionButton: FloatingActionButton(
-        onPressed: (){},
-        child: Text('Click'),
-        backgroundColor: Colors.redAccent,
-      ),
-    );
+    return MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: Scaffold(
+          backgroundColor: Colors.deepPurple[200],
+          appBar: AppBar(),
+          body: Center(
+            child: Container(
+              height: 300,
+              width: 300,
+              decoration: BoxDecoration(
+                color: Colors.deepPurple,
+                // Curve the corners
+                borderRadius: BorderRadius.circular(23),
+              ),
+              padding: EdgeInsets.all(25),
+              child: Icon(
+                Icons.favorite,
+                color: Colors.white,
+                size: 64,
+              ),
+            ),
+          ),
+        ));
   }
 }
